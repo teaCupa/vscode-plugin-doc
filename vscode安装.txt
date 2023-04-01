@@ -1,0 +1,21 @@
+Ubuntu20.04下安装VSCode（配置C/C++开发环境）
+https://blog.csdn.net/fangshuo_light/article/details/123635576
+安装C/C++插件   
+https://blog.csdn.net/Taylor_0522/article/details/127240253
+https://zhuanlan.zhihu.com/p/614866603
+
+VScode远程ssh连接linux（因网络连接错误，未成功）
+安装Remote SSH插件，由于网络原因，vscode中安装该插件时出现无法安装，需要手动安装
+参考https://blog.csdn.net/weixin_47077075/article/details/124793638
+还是有网络问题，先这样吧，不是刚需
+
+
+快捷键设置，类idea
+https://blog.csdn.net/subtitle_/article/details/127044351
+用得比较多的快捷键有：（直接修改完事，不用管原来的快捷键作废，don't care）
+剪切行ctrl+X
+ctrl+D向下复制一行（默认ctrl+D是选中，完全可以由ctrl+F替换）
+alter+enter光标跳到下一行
+ctrl+alter+<-  浏览函数时，希望光标返回上一处
+ctrl+alter+down 代码行下移
+alter+down 多行选中光标编辑

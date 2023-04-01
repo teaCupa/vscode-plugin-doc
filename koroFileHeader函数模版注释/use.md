@@ -6,14 +6,14 @@ https://github.com/OBKoro1/koro1FileHeader/
 
 ## 在设置栏中找到fileheader拓展
 
-![1680269508776](.\img\设置模版2.png)
+![](./img/设置模版2.png)
 
 ## 将以下文件头模版拷贝到上述settings.json文件中
 
 ```json
 {
     // 头部注释
-"fileheader.customMade": {    
+"fileheader.customMade": {
     // Author字段是文件的创建者 可以在specialOptions中更改特殊属性
     // 公司项目和个人项目可以配置不同的用户名与邮箱 搜索: gitconfig includeIf  比如: https://ayase.moe/2021/03/09/customized-git-config/
     // 自动提取当前git config中的: 用户名、邮箱
@@ -33,7 +33,7 @@ https://github.com/OBKoro1/koro1FileHeader/
     "Description": "", // 介绍文件的作用、文件的入参、出参。
     // custom_string_obkoro1~custom_string_obkoro100都可以输出自定义信息
     // 可以设置多条自定义信息 设置个性签名、留下QQ、微信联系方式、输入空行等
-    "custom_string_obkoro1": "", 
+    "custom_string_obkoro1": "",
     // 版权声明 保留文件所有权利 自动替换年份 获取git配置的用户名和邮箱
     // 版权声明获取git配置, 与Author字段一致: ${git_name} ${git_email} ${git_name_email}
     "custom_string_obkoro1_copyright": "Copyright (c) ${now_year} by company-A, All Rights Reserved."
@@ -50,13 +50,13 @@ https://github.com/OBKoro1/koro1FileHeader/
 
 # 产生文件注释快捷键
 
-windows:   ctrl+win+i   
+windows:   ctrl+win+i
 
 创建一个文件，输入ctrl+win+i 快捷键即可生成文件注释
 
 # 函数注释快捷键
 
-`window`：`ctrl+win+t` 
+`window`：`ctrl+win+t`
 
 ```json
 "fileheader.configObj": {
